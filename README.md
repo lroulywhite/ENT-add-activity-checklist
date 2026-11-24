@@ -40,6 +40,12 @@ Use an iframe or website embed with the Pages URL above. If your Genially elemen
 
 Give the element a 16:9 area and turn on full screen if the product text looks small. The simulation scales to fit, and the guide cards grow on small embeds so the text stays readable.
 
+## Which version is live
+
+This is build **2026-11-24 v3**. To confirm the right file is online, open the Pages URL and press Start. The first card should be titled **Find Add Activity**, with numbered markers 1, 2 and 3 on Contracts, the Activities tab and Add Activity. There should be no "What you will learn" bar under the screen. You can also view the page source and search for `sim-version`.
+
+If you still see an older version after uploading, add a cache buster to the URL, for example `https://lroulywhite.github.io/ENT-add-activity-checklist/?v=3`, and use that URL in Genially.
+
 ## Updating
 
 Replace `index.html` and commit. GitHub Pages redeploys on its own. Cached copies in Genially can take a few minutes to refresh.
